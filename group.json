@@ -1,0 +1,24 @@
+{
+    "ID": "vmware_fusion_demo",
+    "Properties": {
+        "Instance" : {
+            "Plugin": "vmware-fusion",
+            "Properties": {
+                "Tags" : {
+                    "env" : "dev",
+                    "instance-plugin" : "fusion"
+                },
+                "VMX" : "mobylinux",
+                "MemorySizeMBs" : 512,
+                "NumCPUs" : 2,
+                "LaunchGUI" : true
+            }
+        },
+        "Flavor" : {
+            "Plugin": "flavor-vanilla",
+            "Properties": {
+                "Size" : 3
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Properties" : {
+        "Tags" : {
+            "env" : "dev",
+            "instance-plugin" : "fusion"
+        },
+        "VMX" : "alpine-3.4.4",
+        "MemorySizeMBs" : 512,
+        "NumCPUs" : 1,
+        "LaunchGUI" : true
+    },
+    "Tags" : {
+        "provisioner" : "infrakit-vmware-fusion-example",
+        "other" : "values"
+    },
+    "Init" : "#!/bin/sh; echo hello"
+}

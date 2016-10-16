@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 f8 32 59 7a 7d 80 a0-55 7e 10 99 aa ac 30 b6</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">mobylinux.vmx</vmxPathName></VM></Foundry>

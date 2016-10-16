@@ -1,0 +1,23 @@
+.DS_Store
+
+# VMX files that are generated
+*.vmx
+
+# VMS states
+vms/*
+
+# Build binaries
+bin/*
+build/*
+
+# Editor/IDE files
+*~
+.idea/
+*.iml
+coverage.txt
+
+# Build binaries
+infrakit/*
+
+# Vendored sources.  These are synced during the build by govendor.
+vendor/*/
