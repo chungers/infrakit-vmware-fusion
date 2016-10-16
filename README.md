@@ -27,15 +27,15 @@ See example below.
 
 Currently, it's not possible to perform cloudinit-like execution of init scripts unless they are baked into the image.
 It would be nice to be able to inject the scripts via the Flavor plugin, but the VIX API requires the [VM Tools](https://blogs.vmware.com/vsphere/2015/09/vmware-tools-10-0-0-released.html)
-drivers or [Open VM Tools](https://github.com/vmware/open-vm-tools) (for example, on Alpine,
-[Open VM Tools, for Alpine](https://pkgs.alpinelinux.org/package/edge/main/x86/open-vm-tools))
+drivers or [Open VM Tools](https://github.com/vmware/open-vm-tools) (for example, on Alpine
+[Open VM Tools](https://pkgs.alpinelinux.org/package/edge/main/x86/open-vm-tools))
 package to be installed in the image.
 
 References
 
-https://github.com/rancher/os/issues/219
-https://pkgs.alpinelinux.org/package/edge/main/x86/open-vm-tools
-https://github.com/higebu/packer-alpine/blob/master/scripts/provisioning.sh
+  + https://github.com/rancher/os/issues/219
+  + https://pkgs.alpinelinux.org/package/edge/main/x86/open-vm-tools
+  + https://github.com/higebu/packer-alpine/blob/master/scripts/provisioning.sh
 
 
 ## Building
