@@ -23,6 +23,16 @@ You can create your own VM using whatever image you want.  Then copy the whole d
 into the vm lib folder (see `./vmx`).  Then in your JSON, just reference this basename of the vmx.
 See example below.
 
+## Limitations
+
+Currently, it's not possible to perform cloudinit-like execution of init scripts unless they are baked into the image.
+It would be nice to be able to inject the scripts via the Flavor plugin, but the VIX API requires the [VM Tools](https://blogs.vmware.com/vsphere/2015/09/vmware-tools-10-0-0-released.html)
+driver sets for the guest OS and there are only limited support for popular gues OSes.
+
+We could use SSH with a baked-in SSH key and then disable SSH after the init scripts are run.  Again, this requires
+special preparation of the iso and the vmx, and we'd have to do this outside the VIX API.  It's possible but not implemented
+currently since that would require support by the guest OS and preparing the images.
+
 
 ## Building
 
