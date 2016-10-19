@@ -105,7 +105,7 @@ vmware-fusion: vendor-sync vmx-alpine vmx-moby
 vmx-alpine-get:
 	@echo "+ $@"
 	mkdir -p iso/
-	cd iso/ && wget http://dl-cdn.alpinelinux.org/alpine/v3.4/releases/x86_64/alpine-3.4.4-x86_64.iso
+	cd iso/ && curl -O -sSL http://dl-cdn.alpinelinux.org/alpine/v3.4/releases/x86_64/alpine-3.4.4-x86_64.iso
 
 ALPINE_ISO?=$(shell echo ${CURDIR}/iso/alpine-3.4.4-x86_64.iso | sed -e 's/\//\\\//g')
 vmx-alpine: vmx-alpine-get

@@ -34,17 +34,15 @@
 		},
 		{
 			"checksumSHA1": "iIUYZyoanCQQTUaWsu8b+iOSPt4=",
-			"origin": "github.com/docker/infrakit/vendor/github.com/gorilla/context",
 			"path": "github.com/gorilla/context",
-			"revision": "eb00b11582a3be65b0a3eab735350dc12c51fb2f",
-			"revisionTime": "2016-10-06T07:34:42Z"
+			"revision": "aed02d124ae4a0e94fea4541c8effd05bf0c8296",
+			"revisionTime": "2016-05-25T20:33:19Z"
 		},
 		{
 			"checksumSHA1": "TfZ8ulM+No3vdOTjK6qF1y9yVlI=",
-			"origin": "github.com/docker/infrakit/vendor/github.com/gorilla/mux",
 			"path": "github.com/gorilla/mux",
-			"revision": "eb00b11582a3be65b0a3eab735350dc12c51fb2f",
-			"revisionTime": "2016-10-06T07:34:42Z"
+			"revision": "780415097119f6f61c55475fe59b66f3c3e9ea53",
+			"revisionTime": "2016-08-01T17:00:46Z"
 		},
 		{
 			"checksumSHA1": "vQb5/flq1WIXVvYCCiqak2sA5p0=",
@@ -72,10 +70,9 @@
 		},
 		{
 			"checksumSHA1": "vu7njn8O4vhFtmgGWntwjA2NAbk=",
-			"origin": "github.com/docker/infrakit/vendor/golang.org/x/sys/unix",
 			"path": "golang.org/x/sys/unix",
-			"revision": "eb00b11582a3be65b0a3eab735350dc12c51fb2f",
-			"revisionTime": "2016-10-06T07:34:42Z"
+			"revision": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9",
+			"revisionTime": "2016-09-14T20:33:16Z"
 		}
 	],
 	"rootPath": "github.com/chungers/infrakit-vmware-fusion"

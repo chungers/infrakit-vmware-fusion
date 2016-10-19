@@ -27,6 +27,7 @@ type CreateInstanceRequest struct {
 	LaunchGUI     bool
 }
 
+// DefaultCreateInstanceRequest is a minimal instance request
 var DefaultCreateInstanceRequest = CreateInstanceRequest{
 	MemorySizeMBs: 512,
 	NumCPUs:       1,
