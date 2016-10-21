@@ -116,9 +116,9 @@ vmx-alpine: vmx-alpine-get
 vmx-moby-build:
 	@echo "+ $@"
 	mkdir -p iso/
-	cd iso && git clone https://github.com/docker/moby.git
-	cd iso/moby && make qemu-iso
-	cp moby/alpine/mobylinux-bios.iso ./iso 
+	cd iso && [ -d moby ] || git clone git@github.com:docker/moby.git
+	cd iso/moby/alpine && make mobylinux-bios.iso
+	cp iso/moby/alpine/mobylinux-bios.iso ./iso
 
 
 MOBY_ISO?=$(shell echo ${CURDIR}/iso/mobylinux-bios.iso | sed -e 's/\//\\\//g')
